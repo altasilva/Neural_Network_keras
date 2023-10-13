@@ -13,7 +13,7 @@ y = df['Chance of Admit ']
 x = df.drop('Chance of Admit ', axis=1)
 
 x_train, x_test = x[0:300], x[300:]
-y_train, y_test = x[0:300], x[300:]
+y_train, y_test = y[0:300], y[300:]
 
 print(x_train.shape[1])
 
